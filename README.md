@@ -2,7 +2,9 @@
 
 This repository contains my work at Marist College. It includes any essays, notes, and code for the classes I'm taking.
 
-## 2013 &ndash; 2014
+## 2013
+
+### Fall
 
 * MATH 130L-123
 * ENGH 120L-114
