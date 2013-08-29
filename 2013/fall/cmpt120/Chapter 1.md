@@ -30,8 +30,16 @@ Measurement    | Value
 * **software**: programs that execute on the hardware
 * **systems software**: manages the resources and behavior of the computer itself
 * **operating system**: a collection of programs that controls how the CPU, memory, and I/O devices work together to execute programs
-* **kernel**: manages the CPU's operation, controlling how data and instructions are loaded from memory and accessed by the CPU; not actually multitasking, just switching between programs at a very fast rate to create the illusion of simultaneous execution; coordinates other hardware components, allowing software applications to access memory and interact with the input/output devices
+* **kernel**:
+  * manages the CPU's operation, controlling how data and instructions are loaded from memory and accessed by the CPU
+  * not actually multitasking, just switching between programs at a very fast rate to create the illusion of simultaneous execution
+  * coordinates other hardware components, allowing software applications to access memory and interact with the input/output devices
 * **file system**: manages the computer's memory, organizing storage into files and directories
 * **file**: a document that stores information
 * **directory**: a collection of files that are organized together and labeled with a common name
 * **graphical user interface (GUI)**: uses visual elements to simplify the process of viewing files and executing programs
+
+
+* **stuff**: foobar
+* **foobar**: stuff
+
