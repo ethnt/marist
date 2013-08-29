@@ -12,10 +12,10 @@ Measurement    | Value
 ---------------|-------------------
 1 bit          | 2 values (`0` or `1`)
 1 byte         | 8 bits
-1 kilobyte     | 1024 bytes
-1 megabyte     | 1024 kilobytes
-1 gigabyte     | 1024 megabytes
-1 terabyte     | 1024 gigabytes
+1 kilobyte     | 2^10 bytes = 1024 bytes
+1 megabyte     | 2^20 bytes = 1048576 bytes = 1024 kilobytes
+1 gigabyte     | 2^30 bytes = 1073741824 bytes = 1024 megabytes
+1 terabyte     | 2^40 bytes = 1099511627776 bytes = 1024 gigabytes
 1 gigahertz    | 1 billion instructions per second
 
 
