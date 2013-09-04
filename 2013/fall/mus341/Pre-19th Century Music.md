@@ -50,9 +50,11 @@
 
 ***
 
-**Homework**: List 3 notable events that occurred at teh turn of the 19th century
+**Homework**: List 3 notable events that occurred at the turn of the 19th century
 
 * end of the French Revolution
 * formation of the United States
 * rein of Napoleon
 * Enlightenment
+* War of 1812
+* _Industrial Revolution_
