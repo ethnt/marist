@@ -45,4 +45,4 @@
 
 ***
 
-_In what way did Beethoven use the instruments to create the effect of victory [in _Wellington's Victory_]?
+In what way did Beethoven use the instruments to create the effect of victory [in _Wellington's Victory_]?
