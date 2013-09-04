@@ -1,0 +1,3 @@
+# Analysis of _Mr. Lisa Goes to Washington_
+
+_Mr. Lisa Goes to Washington_, the second episode of the third season of _The Simpsons_ is a good example of how the show as a whole reflects postmodern ideals. One of the more prevalent examples is the self-referential ("meta") aspects of the episode. For example, after Homer becomes enticed by _Reader's Digest_, he says "cartoons don't have any deep meaning, they're just there to give a cheap laugh". Another example is when he says "look at them, staring at that idiot box. Why don't they read?" Both these examples are poking fun at the fact that we, the viewer, are actually watching cartoons on television. 
