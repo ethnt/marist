@@ -1,0 +1,3 @@
+The language of the computer is binary. At its heart, every programming language and markup language is binary is some form or another. Java, the C compiler, the HTML and CSS renderers, all use binary.
+
+At the very basic level, computers are simply turning electrical switches on and off — these on and off positions are represented by 1 and 0 respectively. A sequence of declarations of 1s and 0s creates bytecode, which can then be run on the processor or converted up to ASCII or Unicode.
