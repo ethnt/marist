@@ -1,5 +1,16 @@
 # Webpages
 
+## Web Publishing/Development Model
+
+1. Content creation
+2. HTML/CSS/JS
+3. Quality assurance/testing/evaluation (review the material)
+4. Publish
+5. Go to 1.
+
+***
+
+
 * **HyperText Markup Language (HTML)**: a text document that additional formatting information
 * **web browser**: a program that access a webpage, interprets its content, and displays the page
 * **web server**: computer that stores webpages and executes software for providing access to the pages

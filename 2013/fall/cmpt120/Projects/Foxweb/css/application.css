@@ -1,0 +1,36 @@
+/*
+	file: css/application.css
+*/
+
+body {
+	font: 100%/1.75em "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+#contain {
+	margin: 4em auto;
+	max-width: 960px;
+}
+
+header {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 4em;
+	padding-bottom: 1em;
+}
+
+header ul {
+	padding-left: 0;
+}
+
+header ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+header ul li + li {
+	margin-left: 1em;
+}
