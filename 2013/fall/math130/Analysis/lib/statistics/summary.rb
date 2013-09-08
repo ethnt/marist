@@ -66,7 +66,7 @@ module Statistics
     end
 
     def fences(data = @data)
-      lower = q1(data) + (1.5 * iqr(data))
+      lower = q1(data) - (1.5 * iqr(data))
       upper = q3(data) + (1.5 * iqr(data))
 
       return (lower..upper)

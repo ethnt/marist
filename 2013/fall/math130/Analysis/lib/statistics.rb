@@ -1,4 +1,5 @@
 module Statistics
 end
 
-require_relative 'Statistics/summary.rb'
+require_relative 'statistics/quantitative.rb'
+require_relative 'statistics/summary.rb'
