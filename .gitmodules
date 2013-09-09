@@ -1,0 +1,3 @@
+[submodule "2013/fall/math130/statistics"]
+	path = 2013/fall/math130/statistics
+	url = git://github.com/eturk/statistics.git

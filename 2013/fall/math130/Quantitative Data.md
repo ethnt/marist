@@ -5,9 +5,14 @@
 
 ### Reporting on histograms
 
+* shape (unimodal, bimodal, symmetric, skew)
 * spread (range, interquartile range)
 * center (median, mean)
 * can also visualize five-number summary with box plot
+* range (can give a range for the range, because can't give exact minimum and maximum numbers)
 
+### Example
 
-Read ch. 3, don't read when they talk about boxes and fences
+Data set: `{1, 3, 4, 5, 6, 7, 9}`
+
+`n` = 7
