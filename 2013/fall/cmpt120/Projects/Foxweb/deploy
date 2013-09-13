@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export URI="kgyjz@foxweb.marist.edu"
+
+scp *.html $URI:
+scp css/*.css $URI:css/

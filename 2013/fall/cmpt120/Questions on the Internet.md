@@ -29,3 +29,5 @@ Tim Berners-Lee invented a basic web server and a command-line web browser at th
 _How can we describe the difference between the Internet and the World Wide Web?_
 
 The Internet is the interconnectedness of the computers and devices. The World Wide Web is the HTTP layer on top of TCP/IP. Therefore, the Internet could exist without the Web, but the Web could not exist without the Internet. The Internet provides the Web with a network to run on.
+
+The Mac app and the iOS app are supposed to have the same size fonts based on perspective. So you hold your iPhone closer to your face, and the Mac is farther away, so based on that, the fonts look the same size.

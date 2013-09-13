@@ -3,6 +3,7 @@
 */
 
 body {
+	color: #444;
 	font: 100%/1.75em "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -34,3 +35,20 @@ header ul li {
 header ul li + li {
 	margin-left: 1em;
 }
+
+table {
+	width: 100%;
+}
+
+table + table {
+	margin-top: 1em;
+}
+
+table	tr, table th {
+	text-align: left;
+}
+
+table thead th {
+	border-bottom: 1px solid #ddd;
+}
+

@@ -4,6 +4,12 @@
 * who do we hold responsible?
 * **organizational culture**: "it's the way we do things around here"
 * **ethics**: the rules governing right and wrong behavior; based on values that guide behavior
+* **credo**: how you will conduct yourself and do business
+* **audit**: looking at and organization and finding where ethical decisions are made
+* **vision**: goal
+* **mission**: purpose
+* **efficiency**: doing things right*
+* **effectiveness**: doing the right thing*
 
 ### What are ethics?
 
