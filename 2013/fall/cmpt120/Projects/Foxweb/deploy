@@ -2,5 +2,7 @@
 
 export URI="kgyjz@foxweb.marist.edu"
 
-scp *.html $URI:
-scp css/*.css $URI:css/
+scp -r * $URI:
+
+echo ""
+echo "http://foxweb.marist.edu/users/ethan.turkeltaub1"

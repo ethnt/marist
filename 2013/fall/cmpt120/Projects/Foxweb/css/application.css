@@ -3,17 +3,25 @@
 */
 
 body {
+	background: #fefefe url(../img/whitey.png) repeat;
 	color: #444;
-	font: 100%/1.75em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 100%/1.75em "franklin-gothic-urw", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 a {
+	color: #3498DB;
 	text-decoration: none;
 }
 
+a:hover {
+	color: #2980B9;
+}
+
 #contain {
+	background: #fefefe;
 	margin: 4em auto;
 	max-width: 960px;
+	padding: 1em 2em;
 }
 
 header {
