@@ -1,0 +1,165 @@
+/*
+	Foxweb
+		file: css/src/application.scss
+*/
+
+@import "compass/reset";
+@import "susy";
+
+// @import "lib/rainbows";
+@import "rainbows";
+
+$total-columns: 24;
+$column-width: 2em;
+$gutter-width: 0.5em;
+$grid-padding: $gutter-width;
+
+$sans-serif: "proxima-nova";
+// $sans-serif: "futura-pt", Helvetica Neue, Helvetica, Arial, sans-serif;
+// $serif: "ff-tisa-web-pro", Georgia, Times New Roman, Times, serif;
+
+$base: #fefefe;
+$text: #333;
+
+$dark-blue: #34495E;
+$darker-blue: #2C3E50;
+
+$blue-green: #1ABC9C;
+$dark-blue-green: #16A085;
+
+$green: #2ECC71;
+$dark-green: #27AE60;
+
+$light-blue: #3498DB;
+$blue: #2980B9;
+
+$purple: #9B59B6;
+$dark-purple: #8E44AD;
+
+$yellow: #F1C40F;
+$dark-yellow: #F39C12;
+
+$orange: #E67E22;
+$dark-orange: #D35400;
+
+$red: #E74C3C;
+$dark-red: #C0392B;
+
+$light-grey: #ECF0F1;
+$grey: #BDC3C7;
+
+$dark-grey: #95A5A6;
+$darker-grey: #7F8C8D;
+
+
+/*
+	Universal
+*/
+
+body {
+	@include rainbows(top, 5px, $red, $light-blue, $orange, $green, $yellow, $purple, $grey, $dark-yellow, $grey, $dark-purple, $red, $dark-red, $blue, $blue-green, $dark-orange, $green, $blue, $light-grey, $red, $grey, $green, $purple, $green, $blue, $darker-blue, $yellow, $orange, $dark-yellow, $grey, $dark-blue-green, $orange, $blue-green, $dark-red, $purple);
+
+	color: #444;
+	font: 100%/1.75em $sans-serif;
+}
+
+a {
+	color: $green;
+	text-decoration: none;
+
+	&:hover {
+		color: darken($green, 10%);
+	}
+}
+
+h1 {
+	font-size: 1.25em;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+h2, h3, h4, h5, h6 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+p + p {
+	margin-top: 1rem;
+}
+
+figure {
+	margin: 1em 0;
+}
+
+ol li {
+	list-style-type: decimal;
+}
+
+ul li {
+	list-style-type: disc;
+}
+
+table {
+	margin: 1em 0;
+	width: 100%;
+
+	th {
+		font-weight: bold;
+		border-bottom: 1px solid $grey;
+	}
+}
+
+
+/*
+	Header
+*/
+
+#contain > header {
+	margin-bottom: 4em;
+	margin-top: 2em;
+	padding: 2em 0 1em;
+
+	.inner {
+		@include container;
+	}
+
+	ul li {
+		display: inline-block;
+
+		& + li {
+			margin-left: 1rem;
+
+			&:before {
+				content: "\2022";
+				position: relative;
+				margin-right: 1rem;
+			}
+		}
+	}
+}
+
+
+/*
+	Main
+*/
+
+main {
+	@include container;
+
+	text-align: justify;
+
+	ul, ol {
+		margin: 1em 0;
+
+		li {
+			padding-left: 1em;
+			margin-left: 1.5em;
+		}
+	}
+}

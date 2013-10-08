@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ethan Turkeltaub</title>
+
+		<link href="css/application.css" rel="stylesheet" />
+
+		<script type="text/javascript" src="//use.typekit.net/nmz6zyx.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	</head>
+	<body>
+		<div id="contain">
+			<header role="banner">
+				<div class="inner">
+					<h1>Ethan Turkeltaub</h1>
+					<nav>
+						<ul>
+							<li><a href="index.html">Biography</a></li>
+							<li><a href="labs.html">Labs</a></li>
+							<li><a href="language.html">Language of the Computer</a></li>
+							<li><a href="careers.html">Careers</a></li>
+							<li><a href="history.html">History of the Internet</a></li>
+							<li><a href="dom.html">DOM</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<main role="main">
+				<h2>History of HTML5</h2>
+				<p>HTML5 is the new, unifying standard of the HyperText Markup Language. Originally released in 1993 by Tim Berners-Lee, HTML has undergone major changes since.</p>
+
+				<p>HTML is not a language that is developed — rather, it is a standard that is created by a few different groups, and then is implemented by the browser vendors, or creators. The World Wide Web Consortium (W3C) is one of the oldest organizations driving the standard. It is currently led by Tim Berners-Lee and other full-time and volunteer employees.</p>
+
+				<p>HTML4 was very fragmented in its implementations, using several different DOCTYPEs. For example, there were three different DOCTYPEs for HTML:</p>
+
+				<ul>
+				<li>HTML 4.0 Strict, which does not allow for deprecated and presentational elements and attributes.</li>
+				<li>HTML 4.0 Transitional, which does allow for these deprecated elements and attributes, but not framesets.</li>
+				<li>HTML 4.0 Frameset, which is the same as HTML 4.0 Transitional, but does allow for framesets.</li>
+				</ul>
+
+
+				<p>There was also XHTML, which was based off of both XML, another markup language, as well as HTML. Because it was based off of XML, which has stricter standards, it was more uniform and was the de facto "official" version of HTML that most developers wrote in. There were a number of differences between XHTML and HTML, such as:</p>
+
+				<ul>
+				<li>All elements and attribute names must appear in lower case.</li>
+				<li>all attribute values must be quoted.</li>
+				<li>Non-Empty Elements require a closing tag</li>
+				<li>Empty elements are terminated using a space and a trailing slash</li>
+				<li>No attribute minimization is allowed.</li>
+				<li>In strict XHTML, all inline elements must be contained in a block elements.</li>
+				</ul>
+
+
+				<p>In addition to this, there were four different DOCTYPEs for XHTML:</p>
+
+				<ul>
+				<li>XHTML 1.0 Strict, which is similar to HTML 4.0 Strict.</li>
+				<li>XHTML 1.0 Transitional, which is similar to HTML 4.0 Transitional</li>
+				<li>XHTML 1.0 Frameset, which is similar to HTML 4.0 Frameset.</li>
+				<li>XHTML 1.1, which allows for modules (such as <code>ruby</code>, an element for East-Asian languages).</li>
+				</ul>
+
+
+				<p>Clearly, the "correct" version of HTML was hard to determine. This was not only confusing for developers, but also for browser vendors — they had to support nearly nine different standards at once, while also supporting legacy standards such as HTML 3.1. Because of this, members from Apple (creators of Safari), the Mozilla Foundation (creators of Firefox), and Opera Software (creators of Opera), formed the Web Hypertext Application Technology Working Group (WHATWG) in 2004 to create a new standard of HTML, what they were calling HTML5.</p>
+
+				<p>There was a period of tension between the older, more established W3C, who was still developing XHTML, and the newer WHATWG. There was soon the realization that the browser vendors and WHATWG could forge ahead with their new standards without the W3C, and in 2006, the W3C announced that they would work with WHATWG. They would stop working on XHTML and begin collaborating on HTML5.</p>
+
+				<p>In 2008, the first public working draft of HTML5 was released, and implementation by the major browser vendors began. At this point, the W3C and WHATWG fragment once again, with the W3C sticking with the standard they created calling it a "snapshot", and saying that it was the new HTML5. Meanwhile, WHATWG decided to continue with developing HTML5 further, making it a "living standard", one that will never be finished.</p>
+
+				<p>By this time, all major browsers (Safari, Chrome, Firefox, Opera, and Internet Explorer) all support HTML5 to an extent.</p>
+
+				<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/HTML5-APIs-and-related-technologies-by-Sergey-Mavrody.png/800px-HTML5-APIs-and-related-technologies-by-Sergey-Mavrody.png" alt="Status of the different APIs" /></p>
+
+				<p>At this stage, many people saw HTML5 as the alternative to Flash, a non-standard, proprietary piece of software that was created by Adobe. Many sites used Flash at the time, but many saw HTML as the technology that would hammer the nails into Flash's coffin. The real end of Flash's dominance was when Apple CEO Steve Jobs wrote an open letter trashing Flash for use on the web. Many companies follow suit, and now YouTube, Scribd, and other sites have abandoned Flash in favor of HTML. Today, over 1,000,000,000 HTML5-compatible smartphones have been sold, and nearly 85% of browsers in use support HTML5.</p>
+
+				<h3>HTML5-supported elements and attributes</h3>
+
+				<ul>
+				<li>Several elements have been added for structure (<code>section</code>, <code>article</code>, <code>main</code>, <code>aside</code>, <code>header</code>, <code>footer</code>, <code>nav</code>, <code>figure</code>)</li>
+				<li>Media can now be played natively (<code>audio</code>, <code>video</code>)</li>
+				<li>Different ways of displaying data (<code>track</code>, <code>mark</code>, <code>progress</code>, <code>meter</code>, <code>time</code>, <code>dialog</code>)</li>
+				<li>Rendering dynamic bitmap graphics (<code>canvas</code>)</li>
+				<li>New input types (<code>tel</code>, <code>search</code>, <code>url</code>, <code>email</code>, <code>datetime</code>, <code>date</code>, <code>month</code>, <code>week</code>, <code>time</code>, <code>datetime-local</code>, <code>number</code>, <code>range</code>, <code>color</code>)</li>
+				<li>A new, simpler DOCTYPE (<code>&lt;!DOCTYPE html&gt;</code>)</li>
+				</ul>
+
+
+				<h3>Changes to existing elements and attributes</h3>
+
+				<ul>
+				<li><code>b</code> and <code>i</code> should not be used for bold and italics respectively; rather <code>b</code> "now represents a span of text to which attention is being drawn for utilitarian purposes without conveying any extra importance and with no implication of an alternate voice or mood, such as key words in a document abstract, product names in a review, actionable words in interactive text-driven software, or an article lede", and <code>i</code> " now represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, a thought, or a ship name in Western texts"</li>
+				<li><code>cite</code> is for a title of a work, not the author</li>
+				<li><code>small</code> is for side comments, not small text</li>
+				<li><code>u</code> is not for underlined text, but for "a span of text with an unarticulated, though explicitly rendered, non-textual annotation, such as labeling the text as being a proper name in Chinese text (a Chinese proper name mark), or labeling the text as being misspelt"</li>
+				</ul>
+
+
+				<h3>Deprecated elements and attributes in HTML5</h3>
+
+				<ul>
+				<li><code>basefont</code>, <code>big</code>, <code>center</code>, <code>font</code>, <code>strike</code>, and <code>tt</code> are no longer supported</li>
+				<li><code>align</code>, <code>background</code>, <code>bicolor</code>, <code>border</code>, <code>cellpadding</code>, <code>clear</code>, <code>height</code>, <code>width</code>, <code>size</code>, and <code>type</code> are no longer supported because they are better handled by CSS</li>
+				</ul>
+
+				<h3>Bibliography</h3>
+
+				<ul>
+					<li><a href="http://www.w3.org/Consortium/">http://www.w3.org/Consortium/</a></li>
+					<li><a href="http://www.webstandards.org/learn/articles/askw3c/oct2003/">http://www.webstandards.org/learn/articles/askw3c/oct2003/</a></li>
+					<li><a href="http://www.w3.org/TR/html5-diff/">http://www.w3.org/TR/html5-diff/</a></li>
+				</ul>
+
+				<hr />
+
+				<h2>History of the Internet</h2>
+
+				<section>
+					<h3>Who started the Internet?</h3>
+					<p>Defense's Advanced Research Project Agency (DARPA), led by Larry Roberts, created a small network called ARPANet between the University of California Los Angeles, University of California Santa Barbara, the Stanford Research Institute, and the University of Utah. When the infrastructure was fully implemented, researchers could execute commands on other computers in the networks and share hardware and software costs. Additionally, researchers could share information by transferring text and data files from one location to another. The U.S. Department of Defense had originally intended ARPANet to connect military installations and universities, but it grew in popularity and eventually all universities wanted to be part of the Internet (as it was now being called).</p>
+				</section>
+
+				<section>
+					<h3>What is the main protocol of the Internet?</h3>
+					<p>The Transmission Control Protocol (TCP) and Internet Protocol (IP) control the flow of packets across the Internet. TCP is responsible for the method by which messages are broken down into packets and built up into messages again. IP is concerned with labeling the packets for delivery and controlling the packets' path from sender to recipient.</p>
+					<p>The Domain Name System (DNS) allows for IP addresses to be assigned a human-readable (and -rememberable) name. The Internet Corporation for Assigned Names and Numbers are responsible for designating other companies that can sell rights to domain names to consumers.</p>
+					<p>Domains are comprised of several parts:</p>
+					<ol>
+						<li>A sub-domain that refers to a computer within an organization (<code>www</code>).</li>
+						<li>A domain that refers to an organization (<code>google</code>).</li>
+						<li>A top-level domain that was intended to represent the location or type of organization (<code>com</code>).</li>
+					</ol>
+					<p>A browser sends out a request to a local DNS to look up the requested domain in its' table. Once found, the DNS sends back the corresponding IP address, and then the browser makes a request to that IP address.</p>
+				</section>
+
+				<section>
+					<h3>Who invented the World Wide Web?</h3>
+					<p>Tim Berners-Lee invented a basic web server and a command-line web browser at the European Laboratory for Particle Physics (CERN). This was implemented by Marc Andreesen and Eric Bina at the University of Illinois's National Center for Supercomputing Associations (NCSA), when they created the first graphical browser, Mosaic, in 1993. Because of the ease of access to information with Mosaic, Andreesen eventually founded the Netscape Communications Corporation which created Netscape Navigator, the first modern web browser.</p>
+				</section>
+
+				<section>
+					<h3>How can we describe the difference between the Internet and the World Wide Web?</h3>
+					<p>The Internet is the interconnectedness of the computers and devices. The World Wide Web is the HTTP layer on top of TCP/IP. Therefore, the Internet could exist without the Web, but the Web could not exist without the Internet. The Internet provides the Web with a network to run on.</p>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>

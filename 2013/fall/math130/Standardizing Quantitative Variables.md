@@ -1,2 +1,0 @@
-# Standardizing Quantitative Variables
-

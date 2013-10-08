@@ -1,8 +1,0 @@
-#!/bin/bash
-
-export URI="kgyjz@foxweb.marist.edu"
-
-scp -r * $URI:
-
-echo ""
-echo "http://foxweb.marist.edu/users/ethan.turkeltaub1"

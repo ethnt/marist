@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ethan Turkeltaub</title>
+
+		<link href="css/application.css" rel="stylesheet" />
+
+		<script type="text/javascript" src="//use.typekit.net/nmz6zyx.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	</head>
+	<body>
+		<div id="contain">
+			<header role="banner">
+				<div class="inner">
+					<h1>Ethan Turkeltaub</h1>
+					<nav>
+						<ul>
+							<li><a href="index.html">Biography</a></li>
+							<li><a href="labs.html">Labs</a></li>
+							<li><a href="language.html">Language of the Computer</a></li>
+							<li><a href="careers.html">Careers</a></li>
+							<li><a href="history.html">History of the Internet</a></li>
+							<li><a href="dom.html">DOM</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<main role="main">
+				<h2>Lab Assignments</h2>
+
+				<section>
+					<h3>Farenheit to Celsius</h3>
+					<p>
+						<input id="farenheit" placeholder="Farenheit" type="text">
+						<button type="submit" onclick="temperature(document.getElementById('farenheit').value)">Convert</button>
+					</p>
+					<p id="celsius"></p>
+				</section>
+				<section>
+					<h3>Volume of a Sphere</h3>
+					<p>
+						<input id="radius" placeholder="Radius of a sphere" type="text">
+						<button type="submit" onclick="volume_of_sphere(document.getElementById('radius').value)">Volume</button>
+					</p>
+					<p id="volume"></p>
+				</section>
+				<section>
+					<h3>Average four numbers</h3>
+					<p>
+						<input id="num1" placeholder="1" type="text">
+						<input id="num2" placeholder="2" type="text">
+						<input id="num3" placeholder="3" type="text">
+						<input id="num4" placeholder="4" type="text">
+						<button type="submit" onclick="average()">Average</button>
+					</p>
+					<p id="average"></p>
+				</section>
+
+				<section>
+					<h3>Audio/Video</h3>
+					<p>
+						<audio controls>
+							<source src="media/rac.mp3" type='audio/mpeg; codecs="mp3"'>
+						</audio>
+					</p>
+					<p>
+						<video controls>
+							<source src="media/gct.ogg.360p.webm" type="video/webm">
+						</video>
+					<p>
+				</section>
+
+				<section>
+					<h3>Forms</h3>
+					<form>
+						<fieldset>
+							<legend>Login</legend>
+							<div class="group">
+								<label for="email">Email</label>
+								<input name="email" type="email" />
+							</div>
+							<div class="group">
+								<label for="password">Password</label>
+								<input name="password" type="password" />
+							</div>
+							<p><button type="submit">Login</button></p>
+						</fieldset>
+					</form>
+					<form>
+						<fieldset>
+							<legend>Personal Information</legend>
+              <div class="group">
+                <label for="name">Name</label>
+                <input name="name" type="text" />
+              </div>
+              <div class="group">
+                <label for="surname">Surname</label>
+                <input name="surname" type="text" />
+              </div>
+              <div class="group">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="male" /> Male
+                <input type="radio" name="gender" value="female" /> Female
+              </div>
+              <div class="group">
+                <label for="job">Preferred Job</label>
+                <select name="job">
+                  <option value="forestry">Forestry</option>
+                  <option value="guide">Guide</option>
+                  <option value="ranger">Park Ranger</option>
+                </select>
+              </div>
+              <div class="group">
+                <label for="checkbox">Checkbox</label>
+                <input type="checkbox" name="checkbox">Check #1</input>
+                <input type="checkbox" name="checkbox">Check #2</input>
+              </div>
+              <div class="group">
+                <label for="textarea">Textarea</label>
+                <textarea></textarea>
+              </div>
+						</fieldset>
+					</form>
+				</section>
+
+				<section>
+					<h3>Tables</h3>
+					<table>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Age</th>
+								<th>Hometown</th>
+								<th>Major</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Ethan Turkeltaub</td>
+								<td>18</td>
+								<td>Farmington, CT</td>
+								<td>Computer Science</td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<thead>
+							<tr>
+								<th>Unique Identifier</th>
+								<th>Customer Name</th>
+								<th>Telephone Number</th>
+								<th>Address</th>
+								<th>SKU</th>
+								<th>Date Purchased</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>456</td>
+								<td>A. Roberston</td>
+								<td>555-5555</td>
+								<td>6th St. Pierre, NY 20100</td>
+								<td>1181-3</td>
+								<td>09-11-2013</td>
+							</tr>
+							<tr>
+								<td>42</td>
+								<td>B. Meyers</td>
+								<td>860-4323</td>
+								<td>8 Foobar Lane</td>
+								<td>1181-3</td>
+								<td>09-11-2013</td>
+							</tr>
+							<tr>
+								<td>456</td>
+								<td>A. Roberston</td>
+								<td>555-5555</td>
+								<td>6th St. Pierre, NY 20100</td>
+								<td>1181-3</td>
+								<td>09-11-2013</td>
+							</tr>
+							<tr>
+								<td>456</td>
+								<td>G. Sanchez</td>
+								<td>555-1111</td>
+								<td>41th Gore Ave, TN 30133</td>
+								<td>2381-3</td>
+								<td>09-11-2013</td>
+							</tr>
+							<tr>
+								<td>456</td>
+								<td>S. Holmes</td>
+								<td>123-2321</td>
+								<td>221B Baker Street, London</td>
+								<td>1181-3</td>
+								<td>09-11-2013</td>
+							</tr>
+							<tr>
+								<td>456</td>
+								<td>A. Roberston</td>
+								<td>555-5555</td>
+								<td>6th St. Pierre, NY 20100</td>
+								<td>1181-3</td>
+								<td>09-11-2013</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+			</main>
+		</div>
+		<script src="jsc/application.js"></script>
+	</body>
+</html>

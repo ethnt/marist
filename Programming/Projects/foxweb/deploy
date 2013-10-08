@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export URI="kgyjz@foxweb.marist.edu"
+
+scp -r public/* $URI:
+# rsync -rav -e ssh --include '*/' --include='*.html' --include="*.css" --exclude='*' $URI:path .
+
+echo ""
+echo "http://foxweb.marist.edu/users/ethan.turkeltaub1"

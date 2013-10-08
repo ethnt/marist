@@ -1,0 +1,193 @@
+/*
+	Foxweb
+		file: css/src/application.scss
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+	Universal
+*/
+body {
+  color: #444;
+  font: 100%/1.75em "proxima-nova";
+}
+body:before {
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  line-height: 1;
+  z-index: 1;
+  top: 0;
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #e74c3c), color-stop(2.94118%, #e74c3c), color-stop(2.94118%, #3498db), color-stop(5.88235%, #3498db), color-stop(5.88235%, #e67e22), color-stop(8.82353%, #e67e22), color-stop(8.82353%, #2ecc71), color-stop(11.76471%, #2ecc71), color-stop(11.76471%, #f1c40f), color-stop(14.70588%, #f1c40f), color-stop(14.70588%, #9b59b6), color-stop(17.64706%, #9b59b6), color-stop(17.64706%, #bdc3c7), color-stop(20.58824%, #bdc3c7), color-stop(20.58824%, #f39c12), color-stop(23.52941%, #f39c12), color-stop(23.52941%, #bdc3c7), color-stop(26.47059%, #bdc3c7), color-stop(26.47059%, #8e44ad), color-stop(29.41176%, #8e44ad), color-stop(29.41176%, #e74c3c), color-stop(32.35294%, #e74c3c), color-stop(32.35294%, #c0392b), color-stop(35.29412%, #c0392b), color-stop(35.29412%, #2980b9), color-stop(38.23529%, #2980b9), color-stop(38.23529%, #1abc9c), color-stop(41.17647%, #1abc9c), color-stop(41.17647%, #d35400), color-stop(44.11765%, #d35400), color-stop(44.11765%, #2ecc71), color-stop(47.05882%, #2ecc71), color-stop(47.05882%, #2980b9), color-stop(50%, #2980b9), color-stop(50%, #ecf0f1), color-stop(52.94118%, #ecf0f1), color-stop(52.94118%, #e74c3c), color-stop(55.88235%, #e74c3c), color-stop(55.88235%, #bdc3c7), color-stop(58.82353%, #bdc3c7), color-stop(58.82353%, #2ecc71), color-stop(61.76471%, #2ecc71), color-stop(61.76471%, #9b59b6), color-stop(64.70588%, #9b59b6), color-stop(64.70588%, #2ecc71), color-stop(67.64706%, #2ecc71), color-stop(67.64706%, #2980b9), color-stop(70.58824%, #2980b9), color-stop(70.58824%, #2c3e50), color-stop(73.52941%, #2c3e50), color-stop(73.52941%, #f1c40f), color-stop(76.47059%, #f1c40f), color-stop(76.47059%, #e67e22), color-stop(79.41176%, #e67e22), color-stop(79.41176%, #f39c12), color-stop(82.35294%, #f39c12), color-stop(82.35294%, #bdc3c7), color-stop(85.29412%, #bdc3c7), color-stop(85.29412%, #16a085), color-stop(88.23529%, #16a085), color-stop(88.23529%, #e67e22), color-stop(91.17647%, #e67e22), color-stop(91.17647%, #1abc9c), color-stop(94.11765%, #1abc9c), color-stop(94.11765%, #c0392b), color-stop(97.05882%, #c0392b), color-stop(97.05882%, #9b59b6), color-stop(100%, #9b59b6));
+  background: -webkit-linear-gradient(left, #e74c3c 0%, #e74c3c 2.94118%, #3498db 2.94118%, #3498db 5.88235%, #e67e22 5.88235%, #e67e22 8.82353%, #2ecc71 8.82353%, #2ecc71 11.76471%, #f1c40f 11.76471%, #f1c40f 14.70588%, #9b59b6 14.70588%, #9b59b6 17.64706%, #bdc3c7 17.64706%, #bdc3c7 20.58824%, #f39c12 20.58824%, #f39c12 23.52941%, #bdc3c7 23.52941%, #bdc3c7 26.47059%, #8e44ad 26.47059%, #8e44ad 29.41176%, #e74c3c 29.41176%, #e74c3c 32.35294%, #c0392b 32.35294%, #c0392b 35.29412%, #2980b9 35.29412%, #2980b9 38.23529%, #1abc9c 38.23529%, #1abc9c 41.17647%, #d35400 41.17647%, #d35400 44.11765%, #2ecc71 44.11765%, #2ecc71 47.05882%, #2980b9 47.05882%, #2980b9 50%, #ecf0f1 50%, #ecf0f1 52.94118%, #e74c3c 52.94118%, #e74c3c 55.88235%, #bdc3c7 55.88235%, #bdc3c7 58.82353%, #2ecc71 58.82353%, #2ecc71 61.76471%, #9b59b6 61.76471%, #9b59b6 64.70588%, #2ecc71 64.70588%, #2ecc71 67.64706%, #2980b9 67.64706%, #2980b9 70.58824%, #2c3e50 70.58824%, #2c3e50 73.52941%, #f1c40f 73.52941%, #f1c40f 76.47059%, #e67e22 76.47059%, #e67e22 79.41176%, #f39c12 79.41176%, #f39c12 82.35294%, #bdc3c7 82.35294%, #bdc3c7 85.29412%, #16a085 85.29412%, #16a085 88.23529%, #e67e22 88.23529%, #e67e22 91.17647%, #1abc9c 91.17647%, #1abc9c 94.11765%, #c0392b 94.11765%, #c0392b 97.05882%, #9b59b6 97.05882%, #9b59b6 100%);
+  background: -moz-linear-gradient(left, #e74c3c 0%, #e74c3c 2.94118%, #3498db 2.94118%, #3498db 5.88235%, #e67e22 5.88235%, #e67e22 8.82353%, #2ecc71 8.82353%, #2ecc71 11.76471%, #f1c40f 11.76471%, #f1c40f 14.70588%, #9b59b6 14.70588%, #9b59b6 17.64706%, #bdc3c7 17.64706%, #bdc3c7 20.58824%, #f39c12 20.58824%, #f39c12 23.52941%, #bdc3c7 23.52941%, #bdc3c7 26.47059%, #8e44ad 26.47059%, #8e44ad 29.41176%, #e74c3c 29.41176%, #e74c3c 32.35294%, #c0392b 32.35294%, #c0392b 35.29412%, #2980b9 35.29412%, #2980b9 38.23529%, #1abc9c 38.23529%, #1abc9c 41.17647%, #d35400 41.17647%, #d35400 44.11765%, #2ecc71 44.11765%, #2ecc71 47.05882%, #2980b9 47.05882%, #2980b9 50%, #ecf0f1 50%, #ecf0f1 52.94118%, #e74c3c 52.94118%, #e74c3c 55.88235%, #bdc3c7 55.88235%, #bdc3c7 58.82353%, #2ecc71 58.82353%, #2ecc71 61.76471%, #9b59b6 61.76471%, #9b59b6 64.70588%, #2ecc71 64.70588%, #2ecc71 67.64706%, #2980b9 67.64706%, #2980b9 70.58824%, #2c3e50 70.58824%, #2c3e50 73.52941%, #f1c40f 73.52941%, #f1c40f 76.47059%, #e67e22 76.47059%, #e67e22 79.41176%, #f39c12 79.41176%, #f39c12 82.35294%, #bdc3c7 82.35294%, #bdc3c7 85.29412%, #16a085 85.29412%, #16a085 88.23529%, #e67e22 88.23529%, #e67e22 91.17647%, #1abc9c 91.17647%, #1abc9c 94.11765%, #c0392b 94.11765%, #c0392b 97.05882%, #9b59b6 97.05882%, #9b59b6 100%);
+  background: -o-linear-gradient(left, #e74c3c 0%, #e74c3c 2.94118%, #3498db 2.94118%, #3498db 5.88235%, #e67e22 5.88235%, #e67e22 8.82353%, #2ecc71 8.82353%, #2ecc71 11.76471%, #f1c40f 11.76471%, #f1c40f 14.70588%, #9b59b6 14.70588%, #9b59b6 17.64706%, #bdc3c7 17.64706%, #bdc3c7 20.58824%, #f39c12 20.58824%, #f39c12 23.52941%, #bdc3c7 23.52941%, #bdc3c7 26.47059%, #8e44ad 26.47059%, #8e44ad 29.41176%, #e74c3c 29.41176%, #e74c3c 32.35294%, #c0392b 32.35294%, #c0392b 35.29412%, #2980b9 35.29412%, #2980b9 38.23529%, #1abc9c 38.23529%, #1abc9c 41.17647%, #d35400 41.17647%, #d35400 44.11765%, #2ecc71 44.11765%, #2ecc71 47.05882%, #2980b9 47.05882%, #2980b9 50%, #ecf0f1 50%, #ecf0f1 52.94118%, #e74c3c 52.94118%, #e74c3c 55.88235%, #bdc3c7 55.88235%, #bdc3c7 58.82353%, #2ecc71 58.82353%, #2ecc71 61.76471%, #9b59b6 61.76471%, #9b59b6 64.70588%, #2ecc71 64.70588%, #2ecc71 67.64706%, #2980b9 67.64706%, #2980b9 70.58824%, #2c3e50 70.58824%, #2c3e50 73.52941%, #f1c40f 73.52941%, #f1c40f 76.47059%, #e67e22 76.47059%, #e67e22 79.41176%, #f39c12 79.41176%, #f39c12 82.35294%, #bdc3c7 82.35294%, #bdc3c7 85.29412%, #16a085 85.29412%, #16a085 88.23529%, #e67e22 88.23529%, #e67e22 91.17647%, #1abc9c 91.17647%, #1abc9c 94.11765%, #c0392b 94.11765%, #c0392b 97.05882%, #9b59b6 97.05882%, #9b59b6 100%);
+  background: linear-gradient(left, #e74c3c 0%, #e74c3c 2.94118%, #3498db 2.94118%, #3498db 5.88235%, #e67e22 5.88235%, #e67e22 8.82353%, #2ecc71 8.82353%, #2ecc71 11.76471%, #f1c40f 11.76471%, #f1c40f 14.70588%, #9b59b6 14.70588%, #9b59b6 17.64706%, #bdc3c7 17.64706%, #bdc3c7 20.58824%, #f39c12 20.58824%, #f39c12 23.52941%, #bdc3c7 23.52941%, #bdc3c7 26.47059%, #8e44ad 26.47059%, #8e44ad 29.41176%, #e74c3c 29.41176%, #e74c3c 32.35294%, #c0392b 32.35294%, #c0392b 35.29412%, #2980b9 35.29412%, #2980b9 38.23529%, #1abc9c 38.23529%, #1abc9c 41.17647%, #d35400 41.17647%, #d35400 44.11765%, #2ecc71 44.11765%, #2ecc71 47.05882%, #2980b9 47.05882%, #2980b9 50%, #ecf0f1 50%, #ecf0f1 52.94118%, #e74c3c 52.94118%, #e74c3c 55.88235%, #bdc3c7 55.88235%, #bdc3c7 58.82353%, #2ecc71 58.82353%, #2ecc71 61.76471%, #9b59b6 61.76471%, #9b59b6 64.70588%, #2ecc71 64.70588%, #2ecc71 67.64706%, #2980b9 67.64706%, #2980b9 70.58824%, #2c3e50 70.58824%, #2c3e50 73.52941%, #f1c40f 73.52941%, #f1c40f 76.47059%, #e67e22 76.47059%, #e67e22 79.41176%, #f39c12 79.41176%, #f39c12 82.35294%, #bdc3c7 82.35294%, #bdc3c7 85.29412%, #16a085 85.29412%, #16a085 88.23529%, #e67e22 88.23529%, #e67e22 91.17647%, #1abc9c 91.17647%, #1abc9c 94.11765%, #c0392b 94.11765%, #c0392b 97.05882%, #9b59b6 97.05882%, #9b59b6 100%);
+}
+
+a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+a:hover {
+  color: #25a25a;
+}
+
+h1 {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p + p {
+  margin-top: 1rem;
+}
+
+figure {
+  margin: 1em 0;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+table {
+  margin: 1em 0;
+  width: 100%;
+}
+table th {
+  font-weight: bold;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+/*
+	Header
+*/
+#contain > header {
+  margin-bottom: 4em;
+  margin-top: 2em;
+  padding: 2em 0 1em;
+}
+#contain > header .inner {
+  *zoom: 1;
+  max-width: 59.5em;
+  _width: 59.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contain > header .inner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#contain > header ul li {
+  display: inline-block;
+}
+#contain > header ul li + li {
+  margin-left: 1rem;
+}
+#contain > header ul li + li:before {
+  content: "\2022";
+  position: relative;
+  margin-right: 1rem;
+}
+
+/*
+	Main
+*/
+main {
+  *zoom: 1;
+  max-width: 59.5em;
+  _width: 59.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+main ul, main ol {
+  margin: 1em 0;
+}
+main ul li, main ol li {
+  padding-left: 1em;
+  margin-left: 1.5em;
+}

@@ -1,0 +1,5 @@
+The Document Object Model (DOM) is a standard convention for representing and interacting with objects in HTML, XHTML, and XML documents. It was initially released along with JavaScript by Netscape Communications in 1996 with Netscape Navigator 2.0. Later that year, Microsoft released Internet Explorer 3.0 with a port of JavaScript called JScript. At this point, there was no formal standard, but it was partly described in the specification of HTML 4. In 1997, Netscape and Microsoft released versions 4.0 of both Navigator and Internet Explorer, adding Dynamic HTML (DHTML) support. DHTML enabled changes in loaded HTML documents.
+
+In 1997, the The World Wide Web Consortium (W3C) published the first version of a standard for browser scripting languages called ECMAScript in collaboration with both Netscape and Internet Explorer. Since then, all subsequent releases of both JavaScript and JScript implemented ECMAScript for greater cross-browser compatibility.
+
+To render a document such as an HTML page, web browsers organize "nodes" (elements) of the document into a tree scripture called the DOM tree, with the topmost node named the "Document object". 

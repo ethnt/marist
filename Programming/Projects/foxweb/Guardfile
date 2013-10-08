@@ -1,0 +1,3 @@
+guard :compass
+
+guard 'coffeescript', input: 'assets/jsc', output: 'public/jsc'

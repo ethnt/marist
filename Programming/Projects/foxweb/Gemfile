@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+group :development do
+  gem 'guard-compass'
+  gem 'susy'
+  gem 'compass-rainbows', git: 'https://github.com/eturk/compass-rainbows.git'
+
+  gem 'guard-coffeescript'
+end
