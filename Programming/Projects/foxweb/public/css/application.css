@@ -90,6 +90,11 @@ a:hover {
   color: #25a25a;
 }
 
+code {
+  background: #ecf0f1;
+  font-family: "source-code-pro";
+}
+
 h1 {
   font-size: 1.25em;
   font-weight: 700;
@@ -130,6 +135,11 @@ table {
 table th {
   font-weight: bold;
   border-bottom: 1px solid #bdc3c7;
+}
+
+.gist-file table {
+  margin: 0;
+  width: auto;
 }
 
 /*

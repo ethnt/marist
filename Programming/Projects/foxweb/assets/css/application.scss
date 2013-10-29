@@ -15,6 +15,7 @@ $gutter-width: 0.5em;
 $grid-padding: $gutter-width;
 
 $sans-serif: "proxima-nova";
+$monospace: "source-code-pro";
 // $sans-serif: "futura-pt", Helvetica Neue, Helvetica, Arial, sans-serif;
 // $serif: "ff-tisa-web-pro", Georgia, Times New Roman, Times, serif;
 
@@ -72,6 +73,11 @@ a {
 	}
 }
 
+code {
+	background: $light-grey;
+	font-family: $monospace;
+}
+
 h1 {
 	font-size: 1.25em;
 	font-weight: 700;
@@ -113,6 +119,11 @@ table {
 		font-weight: bold;
 		border-bottom: 1px solid $grey;
 	}
+}
+
+.gist-file table {
+	margin: 0;
+	width: auto;
 }
 
 
