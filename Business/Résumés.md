@@ -1,0 +1,3 @@
+# Résumés
+
+- keep it simple

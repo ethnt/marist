@@ -6,7 +6,7 @@
 
 ## Paragraphing
 
-- topic/recant/i
+- topic/recant
 - coherence
 - unity
 - lexical ties/reptition
