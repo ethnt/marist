@@ -46,3 +46,8 @@ StdDev(ˆp) = Std.Dev-(x1) / sqrt(n)
 - Central Limit Theorem: if n is big but not too big, ˆp is approximated as a normal model
 
 Conf. Interval: ˆp - (2sqrt(ˆp(1-p))/sqrt(n)) < p < ˆp + (2sqrt(ˆp(1-p))/sqrt(n))
+
+---
+
+E(ˆp) = p
+StdDev(ˆp) = sqrt( ( p(1-p) ) / n )
